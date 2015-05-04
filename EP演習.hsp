@@ -1,0 +1,2064 @@
+width 640,480,700,50
+title "ÉhÉâÉÄÉfÉÇ"
+mmload "apple.wav",1
+pos 50,140
+objsize 70,30
+button gosub "Play",*apple
+button gosub "Stop",*bad
+stop
+
+*apple
+mmplay 1
+a=25:b=50:c=75:d=255
+color 100,100,100:boxf 250,260,420,330
+color 0,0,0:boxf 322,300,348,380; ﬁΩ
+color a,a,a:circle 165,330,285,450;Ω»±
+color a,a,a:circle 390,330,510,450;¿—â∫
+color b,b,b:circle 220,240,320,340;¿—ç∂
+color b,b,b:circle 350,240,450,340;¿—âE
+color c,c,c:circle 90,200,220,330;∏◊Øº≠ç∂
+color c,c,c:circle 450,200,580,330;∏◊Øº≠âE
+color c,c,c:circle 70,365,170,465 ;ªΩÕﬂ
+
+wait 200
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90;hi
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 5:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 100
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.6
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;20
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.7
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.8
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 360
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 360
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.9
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.10
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 80
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 80
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.11
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.12
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.13
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:await 90;1.14
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.15
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 5:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;4
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.16
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:await 90;2
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:circle 450,200,580,330:await 240
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 240;1Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.17.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.18.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.19.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.20.4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 6:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.21.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.22.6
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 220
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 220
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.23.7
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.24.8
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 150;ä‘ët
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+await 140;1ÇÃó]ÇË
+await 410*3;2Å`4îèñ⁄
+await 410*6*4;2Å`7è¨êﬂ
+await 400*4
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 350,240,450,340:await 70;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:color b,b,b:circle 350,240,450,340:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 350,240,450,340:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:color b,b,b:circle 350,240,450,340:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 350,240,450,340:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:color b,b,b:circle 350,240,450,340:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.25.9
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.26.10
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.27.11
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.28.12
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.29.13
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.30.14
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.31.15
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90;2Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.32.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:circle 90,200,220,330:await 170
+color d,0,0:boxf 322,300,348,380:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:await 170
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.33.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.34.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.35.4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.36.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 6:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.37.6
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.38.7
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.39.8
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.40.9
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 320
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 320
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:circle 90,200,220,330:await 170
+color d,0,0:boxf 322,300,348,380:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:await 170
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.41.10
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.42.11
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.43.12
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.44.13
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.45.14
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.46.15
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.47.16
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.48.17
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90;3Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.49.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.50.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.51.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.51.4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 60;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 90;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.52.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.53.6
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.54.7
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.55.8
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 60;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 120;1.56.9
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.57.10
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 360;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.58.11
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.59.12
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 360;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.60.13
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.61.14
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.62.15
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:await 120;1.63.16
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120:color 0,0,0:boxf 322,300,348,380:await 330;3
+await 390;4
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 120;1.64.17
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:circle 450,200,580,330:await 90;4
+color a,a,a:circle 165,330,285,450:circle 450,200,580,330:await 320
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 120;1.65.18
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 120;1.66.19
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320;4Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 120;1.67.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 120;1.68.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 120;1.69.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 120;1.70.4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 120;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+await 390*2;1.71.5
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 100;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465,:circle 90,200,220,330:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 100;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465,:circle 90,200,220,330:await 350;ñﬂÇÈ
+
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.17.1.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.18.2.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.19.3.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.20.4.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 6:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.21.5.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.22.6.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 210
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 210
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.23.7.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.24.8.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;ä‘ët
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.18.2.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.19.3.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.20.4.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 6:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 90
+color d,0,0:circle 90,200,220,330:await 50:color c,c,c:circle 90,200,220,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 90
+color d,0,0:circle 90,200,220,330:await 50:color c,c,c:circle 90,200,220,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.21.5.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.22.6.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 210
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 210
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.23.7.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.24.8.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 70
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.25.9.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.26.10.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.27.11.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.28.12.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.29.13.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.30.14.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.31.15.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90;2Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.32.1.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 330
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:circle 90,200,220,330:await 170
+color d,0,0:boxf 322,300,348,380:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:await 170
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.33.2.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.34.3.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.35.4.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.36.5.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 6:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.37.6.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.38.7.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.39.8.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 70,365,170,465:await 90;1.40.9.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 320
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 320
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:circle 90,200,220,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:circle 90,200,220,330:await 170
+color d,0,0:boxf 322,300,348,380:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:await 170
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.41.10.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.42.11.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.43.12.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.44.13.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.45.14.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.46.15.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 200
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.47.16.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 450,200,580,330:await 90;1.48.17.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:boxf 322,300,348,380:circle 450,200,580,330:await 80;4.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90;3Õﬂ∞ºﬁ.2
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.49.1.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.50.2.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.51.3.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.51.4.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 60;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 90;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.52.5.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.53.6.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.54.7.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.55.8.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 180
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 50
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 90
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 60;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 90;2∂Ø∫
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 120;1.72.6;5Õﬂ∞ºﬁ
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.73.7
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.74.8
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.75.9
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.76.10
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.77.11
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+color 0,0,d:boxf 322,300,348,380::await 120;1.78.12
+color 0,0,0:boxf 322,300,348,380:await 330
+await 260;2
+color d,0,0:boxf 322,300,348,380:await 60:color 0,0,0:boxf 322,300,348,380:await 100
+color d,0,0:boxf 322,300,348,380:await 120;3
+color 0,0,0:boxf 322,300,348,380:await 320
+color d,0,0:circle 165,330,285,450:await 90;4
+color a,a,a:circle 165,330,285,450:await 320
+await 390*2;1.79.13
+color d,0,0:circle 450,200,580,330:await 60;3
+color 0,0,0:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90;3.5
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 60;4
+color 0,0,0:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90;4.5
+color d,0,0:circle 450,200,580,330:await 50:color c,c,c:circle 450,200,580,330:await 90
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.80.14
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+await 390;2
+color d,0,0:circle 90,200,220,330:await 90;3
+color c,c,c:circle 90,200,220,330:await 310
+await 270;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:await 90;1.80.15
+color 0,0,0:boxf 322,300,348,380:await 310
+await 390;2
+color d,0,0:circle 90,200,220,330:await 90;3
+color c,c,c:circle 90,200,220,330:await 310
+await 270;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:await 90;1.81.16
+color 0,0,0:boxf 322,300,348,380:await 310
+await 390;2
+color d,0,0:circle 90,200,220,330:await 90;3
+color c,c,c:circle 90,200,220,330:await 310
+await 270;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:await 90;1.82.17
+color 0,0,0:boxf 322,300,348,380:await 310
+await 410*2;2-3
+await 300;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.83.18
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+await 400;2
+color d,0,0:circle 90,200,220,330:await 90;3
+color c,c,c:circle 90,200,220,330:await 310
+await 280;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:await 90;1.84.19
+color 0,0,0:boxf 322,300,348,380:await 310
+await 400;2
+color d,0,0:circle 90,200,220,330:await 90;3
+color c,c,c:circle 90,200,220,330:await 310
+await 280;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 130
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.85.20
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+await 290;2
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+await 290;4
+color d,0,0:boxf 322,300,348,380:await 50:color 0,0,0:boxf 322,300,348,380:await 180
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.86.21
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 320
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 320
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 320
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 100;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 360;5Õﬂ∞ºﬁ
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.87.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.88.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.89.3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.90.4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 50;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 85;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.91.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.92.6
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.93.7
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.94.8
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 50;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 85;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.95.9
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.96.10
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.97.11
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.98.12
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 90;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 175
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 45;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 50;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 85;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.99.13
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.100.14
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.101.15
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.102.16
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:circle 70,365,170,465:await 50:color c,c,c:circle 70,365,170,465:await 95
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:circle 90,200,220,330:await 95;2
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:color c,c,c:circle 90,200,220,330:await 180
+color d,0,0:circle 70,365,170,465:await 45:color c,c,c:circle 70,365,170,465:await 45
+color d,0,0:circle 165,330,285,450:await 45:color a,a,a:circle 165,330,285,450:await 45
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 175
+color d,0,0:boxf 322,300,348,380:circle 70,365,170,465:await 90
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 70,365,170,465:await 175
+color d,0,0:boxf 322,300,348,380:circle 165,330,285,450:await 50;4
+color 0,0,0:boxf 322,300,348,380:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85
+color d,0,0:circle 165,330,285,450:await 60:color a,a,a:circle 165,330,285,450:await 85;4.5
+color d,0,0:circle 165,330,285,450:await 50:color a,a,a:circle 165,330,285,450:await 85;6Õﬂ∞ºﬁ
+
+
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.103.1
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.104.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.105.3
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.106.4
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.107.5
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.108.6
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.109.7
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;1.110.8
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.103.1.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.104.2.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.105.3.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.106.4.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:await 90;1.107.5.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.108.6.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:await 90;1.109.7.2
+color 0,0,0:boxf 322,300,348,380:await 310
+color d,0,0:circle 350,240,450,340:await 90;2
+color 0,0,0:color b,b,b:circle 350,240,450,340:await 310
+color d,0,0:boxf 322,300,348,380:await 90;3
+color 0,0,0:boxf 322,300,348,380:await 180
+color d,0,0:circle 220,240,320,340:await 50:color b,b,b:circle 220,240,320,340:await 160
+color d,0,0:boxf 322,300,348,380:circle 350,240,450,340:await 90;4
+color 0,0,0:boxf 322,300,348,380:color b,b,b:circle 350,240,450,340:await 180
+color d,0,0:circle 350,240,450,340:await 50:color b,b,b:circle 350,240,450,340:await 160
+color 0,0,d:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;1.110.8.2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;2
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;3
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color d,0,0:boxf 322,300,348,380:circle 90,200,220,330:circle 70,365,170,465:await 90;4
+color 0,0,0:boxf 322,300,348,380:color c,c,c:circle 90,200,220,330:circle 70,365,170,465:await 310
+color 0,0,d:circle 90,200,220,330:await 140:color c,c,c:circle 90,200,220,330;1.111.9
+stop
+
+*bad
+	mmstop:color 255,255,255:boxf
+	color 0,0,0
+	stop
